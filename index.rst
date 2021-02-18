@@ -13,14 +13,8 @@ Documentation for the INCLINE Cluster at UCCS
    GettingStarted
    SystemOverview
    AllocationsQueues
-
+   Tutorials
    
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

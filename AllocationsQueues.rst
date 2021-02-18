@@ -43,39 +43,39 @@ Queues
 
 
 .. table::
-   :widths: 20,20,20
+   :widths: 20,30,30
 
-   +----------------------------------------+------------------------------------------+
-   | **Queue Name**                         | **Description**                          |
-   +----------------------------------------+------------------------------------------+
-   | ``compute``                            | Standard workhorse queue for jobs that   |
-   |                                        | use the compute nodes.                   |
-   |                                        +-----------+------------------------------+
-   |                                        | |clock-o| | |stack-overflow|             |
-   |                                        | 12 Hours  | 10 Jobs                      |
-   +----------------------------------------+-----------+------------------------------+
-   | ``compute-dev``                        | High-priority queue with tight limits on |
-   |                                        | job length and queue number. Use for     |
-   |                                        | testing code but not for production runs.|
-   |                                        +-----------+------------------------------+
-   |                                        | |clock-o| | |stack-overflow|             |
-   |                                        | 1 Hour    | 1 Job                        |
-   +----------------------------------------+-----------+------------------------------+
-   | ``compute-long``                       | Low-priority queue with unlimited job    |
-   |                                        | length. Only one job allowed in the queue|
-   |                                        | at a time                                |
-   |                                        +-----------+------------------------------+
-   |                                        | |clock-o| | |stack-overflow|             |
-   |                                        | Unlimited | 1 Job                        |
-   +----------------------------------------+-----------+------------------------------+
-   | ``gpu``                                | Queue for running jobs on the GPU nodes  |
-   |                                        |                                          |
-   +----------------------------------------+------------------------------------------+
-   | ``hm``                                 | Queue for running jobs on the high memory|
-   |                                        | nodes                                    |
-   +----------------------------------------+------------------------------------------+
-   | ``hetero``                             | Special queue for jobs that use any      |
-   |                                        | combination of compute, GPU, and high    |
-   |                                        | membory nodes.                           |
-   |                                        |                                          |
-   +----------------------------------------+------------------------------------------+
+   +-------------------+------------------------------------------+
+   | **Queue Name**    | **Description**                          |
+   +-------------------+------------------------------------------+
+   | ``compute``       | Standard workhorse queue for jobs that   |
+   |                   | use the compute nodes.                   |
+   |                   +-----------+------------------------------+
+   |                   | |clock-o| | |stack-overflow|             |
+   |                   | 12 Hours  | 10 Jobs                      |
+   +-------------------+-----------+------------------------------+
+   | ``compute-dev``   | High-priority queue with tight limits on |
+   |                   | job length and queue number. Use for     |
+   |                   | testing code but not for production runs.|
+   |                   +-----------+------------------------------+
+   |                   | |clock-o| | |stack-overflow|             |
+   |                   | 1 Hour    | 1 Job                        |
+   +-------------------+-----------+------------------------------+
+   | ``compute-long``  | Low-priority queue with unlimited job    |
+   |                   | length. Only one job allowed in the queue|
+   |                   | at a time                                |
+   |                   +-----------+------------------------------+
+   |                   | |clock-o| | |stack-overflow|             |
+   |                   | Unlimited | 1 Job                        |
+   +-------------------+-----------+------------------------------+
+   | ``gpu``           | Queue for running jobs on the GPU nodes  |
+   |                   |                                          |
+   +-------------------+------------------------------------------+
+   | ``hm``            | Queue for running jobs on the high memory|
+   |                   | nodes                                    |
+   +-------------------+------------------------------------------+
+   | ``hetero``        | Special queue for jobs that use any      |
+   |                   | combination of compute, GPU, and high    |
+   |                   | membory nodes.                           |
+   |                   |                                          |
+   +-------------------+------------------------------------------+
