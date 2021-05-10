@@ -11,6 +11,9 @@ Documentation for the INCLINE Cluster at UCCS
    :caption: Contents:
 
    GettingStarted
+   PreparingYourCode
+   RunningJobs
+   DataTransfer
    SystemOverview
    AllocationsQueues
    Tutorials
