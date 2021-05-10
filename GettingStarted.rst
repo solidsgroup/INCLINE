@@ -31,5 +31,8 @@ Requesting an allocation
 
 .. todo:: Allocation request information
 
-	  
+HPC Etiquette
+-------------
+
+.. todoi:: HPC Etiquette
 	  
