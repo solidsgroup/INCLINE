@@ -5,7 +5,7 @@ Computational Nodes
 -------------------
 
 INCLINE contains 30 dedicated nodes for computation.
-The majority are ``COMPUTE`` nodes, which are CPU only and 2GB/core, but INCLINE also contains two ``HIGH MEMORY`` nodes (1056GB/core) and two ``GPU`` nodes, each with two NVIDIA A100 GPS.
+The majority are ``COMPUTE`` nodes, which are CPU only and 2GB/core, but INCLINE also contains two ``HIGH MEMORY`` nodes (16GB/core) and two ``GPU`` nodes, each with two NVIDIA A100 GPUs.
 Specifics are outlined in the table below.
 
 
