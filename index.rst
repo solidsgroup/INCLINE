@@ -15,7 +15,7 @@ Documentation for the INCLINE Cluster at UCCS
    RunningJobs
    DataTransfer
    SystemOverview
-   AllocationsQueues
+   Resources/index
    Tutorials
    
 
